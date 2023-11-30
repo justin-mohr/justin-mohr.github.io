@@ -1,21 +1,11 @@
----
-layout: about
-permalink: /
-profile:
-  align: right
-  image: profile.png
-published: true
----
+ <font size="+1"> Hello! I am a 5th year Finance PhD Student at the Univeristy of Illinois. My CV is linked <a href="https://www.dropbox.com/s/doov4krxe890nd9/vita2022.pdf?dl=0">here.</a> </font>
+ <br>
+ 
+## Working Papers:
+ <font size="+1"> Pulling the the Plug: Retail Traders and Social Media:</font> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3917950">(SSRN)</a>
+### Abstract:
+This paper examines the relationship between social media and retail trading activity. Using days on which social media platform connectivity is exogenously interrupted, creating a natural experiment, I measure the impact on retail trading behavior in TAQ retail identified trades and a novel dataset of aggregate positions in Robinhood. These ”outage” days are associated with a 2.5% increase in retail trading volume and concentrated mostly in retail traders selling stocks and closing positions. This increase in retail trading volume is consistent with social media serving to distract retail investors, rather than aiding in information acquisition. Institutional investors are unaffected by these days, and stocks with a high concentration of retail traders have improved bid-ask spreads consistent with the increase of retail traders lowering adverse selection risk and improving liquidity.   
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+## Contact Info:
+mohr6@illinois.edu
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
-
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
-
-PS: If you liked the theme, do star it on GitHub!
-
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
