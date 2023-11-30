@@ -9,3 +9,4 @@ This paper examines the relationship between social media and retail trading act
 ## Contact Info:
 mohr6@illinois.edu
 
+ 
