@@ -4,7 +4,7 @@ title: Justin Mohr
 description: UIUC Finance PhD Candidate 
 
 baseurl: "" #name of GitHub repository
-url: "jmohr.me" #custom url to be used instead of GitHub repository
+url: "https://jmohr.me" #custom url to be used instead of GitHub repository
 email: "mohr6@illinois.edu"
 
 # Pagination
