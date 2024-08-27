@@ -5,7 +5,7 @@ description: UIUC Finance PhD Candidate
 
 baseurl: "" #name of GitHub repository
 url: "jmohr.me" #custom url to be used instead of GitHub repository
-email: #
+email: "mohr6@illinois.edu"
 
 # Pagination
 paginate: 4
