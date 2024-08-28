@@ -5,8 +5,9 @@ permalink: /research/  # This specifies the URL path for this page. It will be a
 ---
 
 ## Working Papers:
- <font size="+1"> Pulling the the Plug: Retail Traders and Social Media:</font> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3917950">(SSRN)</a>
-### Abstract:
+ ### Pulling the the Plug: Retail Traders and Social Media:</font> 
+ <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3917950">(SSRN)</a>
+#### Abstract:
 This paper uses days on which social media platform connectivity is exogenously 
 	interrupted to study social media’s impact on retail trading. It provides evidence
 	consistent with social media platforms spreading fanatical optimism rather than
@@ -18,9 +19,10 @@ This paper uses days on which social media platform connectivity is exogenously
 	explanations. The paper’s findings highlight the important role of social media on
 	retail traders’ belief formation and its stock market consequences.
 
-<font size="+1"> House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards </font> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769744">(SSRN)</a>
+### House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards </font> 
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769744">(SSRN)</a>
 <i>with Divij Kohli</i> 
-### Abstract:
+#### Abstract:
 Credit card frauds are one of the most prevalent forms of identity theft. These frauds pose
 a unique problem to the banks. Under the Fair Credit Billing Act (1974), banks are generally
 liable for fraudulent transactions, not the consumer. Banks want consumers to spend to
@@ -36,10 +38,9 @@ consistent with payment security lessening fraud risk to banks and document the 
 of payment security in consumer credit markets. 
 
 ## Work in Progress:
-<font size="+1"> The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets </font> 
+### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets </font> 
 <i>with Corbin Fox</i> 
-“”
-()
+
 
 
 
