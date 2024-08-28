@@ -5,7 +5,7 @@ permalink: /research/  # This specifies the URL path for this page. It will be a
 ---
 
 ## Working Papers:
- ### Pulling the the Plug: Retail Traders and Social Media:</font> 
+### Pulling the the Plug: Retail Traders and Social Media <br>
  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3917950">(SSRN)</a>
 #### Abstract:
 This paper uses days on which social media platform connectivity is exogenously 
@@ -19,8 +19,8 @@ This paper uses days on which social media platform connectivity is exogenously
 	explanations. The paper’s findings highlight the important role of social media on
 	retail traders’ belief formation and its stock market consequences.
 
-### House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards </font> 
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769744">(SSRN)</a>
+### House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards 
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769744">(SSRN)</a> <br>
 <i>with Divij Kohli</i> 
 #### Abstract:
 Credit card frauds are one of the most prevalent forms of identity theft. These frauds pose
