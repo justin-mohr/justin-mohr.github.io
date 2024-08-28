@@ -8,6 +8,7 @@ permalink: /research/  # This specifies the URL path for this page. It will be a
 ### Pulling the the Plug: Retail Traders and Social Media <br>
  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3917950">(SSRN)</a>
 #### Abstract:
+<p align="justify">
 This paper uses days on which social media platform connectivity is exogenously 
 	interrupted to study social media’s impact on retail trading. It provides evidence
 	consistent with social media platforms spreading fanatical optimism rather than
@@ -17,13 +18,14 @@ This paper uses days on which social media platform connectivity is exogenously
 	over the next day following the outage. These results can be explained by a
 	theoretical model of fanatical optimism and are robust to a battery of alternative
 	explanations. The paper’s findings highlight the important role of social media on
-	retail traders’ belief formation and its stock market consequences.
+	retail traders’ belief formation and its stock market consequences. </p>
 
 ### House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards <br>
 <i>with Divij Kohli</i> 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769744">(SSRN)</a> <br>
 
 #### Abstract:
+<p align="justify">
 Credit card frauds are one of the most prevalent forms of identity theft. These frauds pose
 a unique problem to the banks. Under the Fair Credit Billing Act (1974), banks are generally
 liable for fraudulent transactions, not the consumer. Banks want consumers to spend to
@@ -36,12 +38,13 @@ cards in the US market. Following increased payment security in the form of the 
 cards, banks no longer restrict fraud exposed individuals’ credit. Prior fraud exposed cohorts
 also experience a jump in their credit limits when chip cards are rolled out. These results are
 consistent with payment security lessening fraud risk to banks and document the importance
-of payment security in consumer credit markets. 
+of payment security in consumer credit markets. </p>
 
 ## Work in Progress:
 ### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets <br>
 <i>with Corbin Fox</i> 
 
-
+### The Other Half: Monetary Policy Transmission for Households without Mortgage <br>
+<i>with Yucheng Zhou and Divij Kohli</i> 
 
 
