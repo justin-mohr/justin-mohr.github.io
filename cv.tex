@@ -1,0 +1,371 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find that it says                                     %%
+%%                                                                    %%
+%%                           1 of ??                                  %%
+%%                                                                    %%
+%% at the bottom of your first page, this means that the AUX file     %%
+%% was not available when you ran LaTeX on this source. Simply RERUN  %%
+%% LaTeX to get the ``??'' replaced with the number of the last page  %%
+%% of the document. The AUX file will be generated on the first run   %%
+%% of LaTeX and used on the second run to fill in all of the          %%
+%% references.                                                        %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Don't like 10pt? Try 11pt or 12pt
+\documentclass[11pt]{article}
+
+% The automated optical recognition software used to digitize resume
+% information works best with fonts that do not have serifs. This
+% command uses a sans serif font throughout. Uncomment both lines (or at
+% least the second) to restore a Roman font (i.e., a font with serifs).
+%\usepackage{times}
+%\renewcommand{\familydefault}{\sfdefault}
+
+% This is a helpful package that puts math inside length specifications
+\usepackage{calc}
+\usepackage{comment}
+
+% Simpler bibsection for CV sections
+% (thanks to natbib for inspiration)
+\makeatletter
+\newlength{\bibhang}
+\setlength{\bibhang}{1em} %1em}
+\newlength{\bibsep}
+{\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+\newenvironment{bibsection}%
+{\begin{enumerate}{}{%
+		%        {\begin{list}{}{%
+					\setlength{\leftmargin}{\bibhang}%
+					\setlength{\itemindent}{-\leftmargin}%
+					\setlength{\itemsep}{\bibsep}%
+					\setlength{\parsep}{\z@}%
+					\setlength{\partopsep}{0pt}%
+					\setlength{\topsep}{0pt}}}
+			{\end{enumerate}\vspace{-.6\baselineskip}}
+		%        {\end{list}\vspace{-.6\baselineskip}}
+	\makeatother
+	
+	% Layout: Puts the section titles on left side of page
+	\reversemarginpar
+	
+	%
+	%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT NOTES:
+	%
+	% The next \usepackage line changes the layout for CV style section
+	% headings as marginal notes. It also sets up the paper size as either
+	% letter or A4. By default, letter was used. If A4 paper is desired,
+	% comment out the letterpaper lines and uncomment the a4paper lines.
+	%
+	% As you can see, the margin widths and section title widths can be
+	% easily adjusted.
+	%
+	% ALSO: Notice that the includefoot option can be commented OUT in order
+	% to put the PAGE NUMBER *IN* the bottom margin. This will make the
+	% effective text area larger.
+	%
+	% IF YOU WISH TO REMOVE THE ``of LASTPAGE'' next to each page number,
+	% see the note about the +LP and -LP lines below. Comment out the +LP
+	% and uncomment the -LP.
+	%
+	% IF YOU WISH TO REMOVE PAGE NUMBERS, be sure that the includefoot line
+	% is uncommented and ALSO uncomment the \pagestyle{empty} a few lines
+	% below.
+	%
+	
+	%% Use these lines for letter-sized paper
+	\usepackage[paper=letterpaper,
+	%includefoot, % Uncomment to put page number above margin
+	marginparwidth=1.2in,     % Length of section titles
+	marginparsep=.05in,       % Space between titles and text
+	margin=0.75in,               % 1 inch margins
+	includemp]{geometry}
+	
+	%% Use these lines for A4-sized paper
+	%\usepackage[paper=a4paper,
+	%            %includefoot, % Uncomment to put page number above margin
+	%            marginparwidth=30.5mm,    % Length of section titles
+	%            marginparsep=1.5mm,       % Space between titles and text
+	%            margin=25mm,              % 25mm margins
+	%            includemp]{geometry}
+	
+	%% More layout: Get rid of indenting throughout entire document
+	\setlength{\parindent}{0in}
+	\usepackage[document]{ragged2e}
+	
+	\usepackage[shortlabels]{enumitem}
+	
+	%% Reference the last page in the page number
+	%
+	% NOTE: comment the +LP line and uncomment the -LP line to have page
+	%       numbers without the ``of ##'' last page reference)
+	%
+	% NOTE: uncomment the \pagestyle{empty} line to get rid of all page
+	%       numbers (make sure includefoot is commented out above)
+	%
+	\usepackage{fancyhdr,lastpage}
+	\pagestyle{fancy}
+	%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+	\fancyhf{}\renewcommand{\headrulewidth}{0pt}
+	\fancyfootoffset{\marginparsep+\marginparwidth}
+	\newlength{\footpageshift}
+	\setlength{\footpageshift}
+	{0.5\textwidth+0.5\marginparsep+0.5\marginparwidth-2in}
+	\lfoot{\hspace{\footpageshift}%
+		\parbox{4in}{\, \hfill %
+			\arabic{page} of \protect\pageref*{LastPage} % +LP
+			%                    \arabic{page}                               % -LP
+			\hfill \,}}
+	
+	% Finally, give us PDF bookmarks
+	\usepackage{color,hyperref}
+	\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+	\hypersetup{colorlinks,breaklinks,
+		linkcolor=darkblue,urlcolor=darkblue,
+		anchorcolor=darkblue,citecolor=darkblue}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	% The title (name) with a horizontal rule under it
+	% (optional argument typesets an object right-justified across from name
+	%  as well)
+	%
+	% Usage: \makeheading{name}
+	%        OR
+	%        \makeheading[right_object]{name}
+	%
+	% Place at top of document. It should be the first thing.
+	% If ``right_object'' is provided in the square-braced optional
+	% argument, it will be right justified on the same line as ``name'' at
+	% the top of the CV. For example:
+	%
+	%       \makeheading[\emph{Curriculum vitae}]{Your Name}
+	%
+	% will put an emphasized ``Curriculum vitae'' at the top of the document
+	% as a title. Likewise, a picture could be included:
+	%
+	%   \makeheading[\includegraphics[height=1.5in]{my_picutre}]{Your Name}
+	%
+	% the picture will be flush right across from the name.
+	\newcommand{\makeheading}[2][]%
+	{\hspace*{-\marginparsep minus \marginparwidth}%
+		\begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+			{\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
+			\rule{\columnwidth}{1pt}%
+	\end{minipage}}
+	
+	% The section headings
+	%
+	% Usage: \section{section name}
+	\renewcommand{\section}[1]{\pagebreak[3]%
+		\hyphenpenalty=10000%
+		\vspace{1.3\baselineskip}%
+		\phantomsection\addcontentsline{toc}{section}{#1}%
+		\noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\raggedright #1}}}%
+		\vspace{-\baselineskip}\par}
+	
+	% An itemize-style list with lots of space between items
+	\newenvironment{outerlist}[1][\enskip\textbullet]%
+	{\begin{itemize}[#1,leftmargin=*]}{\end{itemize}%
+		\vspace{-.6\baselineskip}}
+	
+	% An environment IDENTICAL to outerlist that has better pre-list spacing
+	% when used as the first thing in a \section
+	\newenvironment{lonelist}[1][\enskip\textbullet]%
+	{\begin{list}{#1}{%
+				\setlength{\partopsep}{0pt}%
+				\setlength{\topsep}{0pt}}}
+		{\end{list}\vspace{-.6\baselineskip}}
+	
+	% An itemize-style list with little space between items
+	\newenvironment{innerlist}[1][\enskip\textbullet]%
+	{\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+		{\end{itemize}}
+	
+	% An environment IDENTICAL to innerlist that has better pre-list spacing
+	% when used as the first thing in a \section
+	\newenvironment{loneinnerlist}[1][\enskip\textbullet]%
+	{\begin{itemize}[#1,leftmargin=*,parsep=0pt,itemsep=0pt,topsep=0pt,partopsep=0pt]}
+		{\end{itemize}\vspace{-.6\baselineskip}}
+	
+	% To add some paragraph space between lines.
+	% This also tells LaTeX to preferably break a page on one of these gaps
+	% if there is a needed pagebreak nearby.
+	\newcommand{\blankline}{\quad\pagebreak[3]}
+	\newcommand{\halfblankline}{\quad\vspace{-0.5\baselineskip}\pagebreak[3]}
+	
+	% Uses hyperref to link DOI
+	\newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
+	\newcommand\doi[1]{doi:\doilink{#1}}
+	
+	% For \url{SOME_URL}, links SOME_URL to the url SOME_URL
+	\providecommand*\url[1]{\href{#1}{#1}}
+	% Same as above, but pretty-prints SOME_URL in teletype fixed-width font
+	\renewcommand*\url[1]{\href{#1}{\texttt{#1}}}
+	
+	% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
+	\providecommand*\email[1]{\href{mailto:#1}{#1}}
+	% Same as above, but pretty-prints ADDRESS in teletype fixed-width font
+	%\renewcommand*\email[1]{\href{mailto:#1}{\texttt{#1}}}
+	
+	%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+			%    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+	%\providecommand\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+			%    \TeX}}
+	\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+			\TeX}}
+	\providecommand\Matlab{\textsc{Matlab}}
+	
+	\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+	\let\endchangemargin=\endlist 
+	
+	%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	
+	\begin{document}
+		\vspace{-3ex}
+		\makeheading{Justin Mohr \hfill \today}
+		
+		\section{Contact Information}
+		
+		% NOTE: Mind where the & separators and \\ breaks are in the following
+		%       table.
+		%
+		% ALSO: \rcollength is the width of the right column of the table
+		%       (adjust it to your liking; default is 1.85in).
+		%
+		\newlength{\rcollength}\setlength{\rcollength}{0.5in}%
+		%
+		Finance Department, Gies School of Business \hfill 727-858-6066 \\
+		1206 S Sixth Street    \hfill \email{mohr6@illinois.edu}\\
+		Champaign, IL 61820 \hfill \href{https://jmohr.me}{Website: jmohr.me} \\
+		%\section{Objective}
+		
+		%Insert text here if you want to
+		%\begin{innerlist}
+		%\item More information and auxiliary documents can be found at\\\url{http://www.tedpavlic.com/facjobsearch/}
+		%\end{innerlist}
+		
+		
+		%\section{Research Interests}
+		
+		%High-dimensional statistics, Mediation Analysis, Pricision medicine, 
+		%Clinical Trials, Machine learning
+		
+		
+		\section{Current Education}
+		
+		\textbf{University of Illinois at Urbana-Champaign}
+
+			
+			 Ph.D. candidate,
+			{Finance} \hfill {2019 - Present}
+
+		
+		\vspace{1ex}
+		\raggedright{\section{Degrees Held}}
+		
+		\textbf{University of South Florida}
+	
+			 B.S.,
+			{Quantitative Economics and Econometrics,} \textit{Summa Cum Laude }\hfill  2016 - 2018
+
+		 \textit{{Minor: Mathematics  }} 
+		
+		\section{Working Papers}
+		\raggedright{{  {\bf``Pulling the Plug: Retail Traders and Social Media"} \\}
+			(Job Market Paper)
+			\justify{
+				This paper uses days on which social media platform connectivity is exogenously
+				interrupted to study social media’s impact on retail trading. It provides evidence
+				consistent with social media platforms spreading fanatical optimism rather than
+				rational beliefs. On “outage” days, social media-discussed stocks experience an
+				increase in retail trading volume concentrated in selling during the first 2 hours of
+				the outage. Social media-discussed stocks experience a price decline that reverses
+				over the next day following the outage. These results can be explained by a
+				theoretical model of fanatical optimism and are robust to a battery of alternative
+				explanations. The paper’s findings highlight the important role of social media on
+				retail traders’ belief formation and its stock market consequences.\\}}
+		
+		\raggedright{{  {\bf``House of Stolen Cards: Payment Security and Lending Decisions"} \\}
+			(with Divij Kohli)
+			\justify{
+				Credit card frauds are one of the most prevalent forms of identity theft. These frauds pose a unique problem to banks. Under the Fair Credit Billing Act (1974), banks are generally liable for fraudulent transactions, not the consumer. Banks want consumers to spend to generate transaction fees, but also want to minimize their liability to fraud. Research on these frauds has been limited due to data constraints. Exploiting a quirk of credit card reporting, we are able to observe these fraudulent cards in credit bureau data. We then document that banks did restrict credit to individuals exposed to fraud; stopping the increasing trend in their credit. We then examine the impact of a government initiative to widely roll out chip cards in the US market. Following increased payment security in the form of the chip-enabled cards, banks no longer restrict fraud exposed individuals’ credit. Prior fraud exposed cohorts also experience a jump in their credit limits when chip cards are rolled out. These results are consistent with payment security lessening fraud risk to banks and document the importance of payment security in the consumer credit markets}}
+		
+		\raggedright{\section{Work In Progress}}
+		
+		\raggedright{{\textbf{``The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets"} \\(with Corbin Fox)}\\}
+		\vspace{1ex}
+		
+		
+		\raggedright{\section{Teaching}}
+		\raggedright{\bf TA: Big Data Analytics (Graduate Level)} \hfill 2024 \\
+		{Head Professor: Julian Reif}\hfill{Department of Finance, UIUC} \\
+		\raggedright{\bf TA: Corporate Finance (Undergraduate Level)} \hfill 2021-2022 \\
+		{Head Professor: Michael Dyer}\hfill{Department of Finance, UIUC} \\
+		\textit{Included on List of Instructors Rated Excellent by Their Students} \\
+		
+		\raggedright{\section{Seminars \& Conferences}}
+		\textbf{2024} (*) = co-author presentation
+		\\  Financial Management Association Annual Meeting (scheduled), Midwestern Finance Association PhD Symposium, Brown Bag at University of Illinois at Urbana-Champaign*, Southwestern Finance Association Annual Meeting, Eastern Finance Association Annual Meeting  \\
+		\textbf{2023} 
+		\\  Financial Management Association Annual Meeting, Brown Bag at University of Illinois at Urbana-Champaign  \\
+		\textbf{2022} 
+		\\  University of South Florida, Economics of Financial Technology Conference,  Southern Finance Association Annual Meeting\\
+		\textbf{2021}
+		\\
+		Brown Bag at University of Illinois at Urbana-Champaign, Latin American and Caribbean Economic Association (LACEA)
+		
+		\vspace{1ex}
+		
+		\raggedright{\section{Refereeing Activity}} 
+		Journal of Financial Research, The Financial Review 
+		
+		
+		\vspace{1ex}
+		
+		\raggedright{\section{Service}}
+		\raggedright{\textbf{Program Committee}}\\
+		 Southern Finance Association 2022 Annual Meeting, Southwestern Finance Association 2024 Annual Meeting, Eastern Finance Association 2024 Annual Meeting,  Southern Finance Association 2024 Annual Meeting
+
+		\vspace{1ex}
+		\raggedright{\textbf{Organizer of Monday Finance PhD Student Seminar Series}} \hfill{2023-Present}\\
+		
+		\vspace{1ex}
+		\raggedright{\textbf{Co-organizer of UIUC Ph.D. Reading Group}} \hfill{2020-Present}\\
+		\vspace{1ex}
+		
+		\raggedright{\textbf{Co-Host of UIUC Finance Brown Bag}}\hfill{2021-2023}\\
+		\vspace{1ex}
+		
+		\raggedright{\textbf{Session Chair}}\\
+		Latin American and Caribbean Economic Association (LACEA) 2021, Economics of Financial Technology Conference 2022, Southwestern Finance Association Annual Meeting 2024
+	
+		
+		
+		
+		\raggedright{\section{Invited Guest Lectures}}
+		\textbf{Spring 2023, Spring 2024}: "Retail Traders and How We Think" for the course: Financial Institutions and Markets (FinTech approach) at the University of Georgia, Athens
+				
+		\vspace{1ex}
+		\section{Honors and Awards}
+
+		Robert Ferber Award\hfill{Summer 2024}\\
+		 Schewe Fellowship \hfill{2023-2024}\\
+		 Zwisler Fellowship \hfill{Summer 2022}\\
+		{Included on List of Instructors Rated Excellent by Their Students}\hfill{2021}\\
+		State Farm Doctoral Fellowship \hfill{2019-2020}\\
+
+		\vspace{1ex}
+		\section{Other Experience}
+		Junior Analyst - Ballast Point Ventures \hfill{July 2018 - July 2019}
+	
+		
+	\end{document}
