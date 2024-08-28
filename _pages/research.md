@@ -44,7 +44,7 @@ of payment security in consumer credit markets. </p>
 ### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets <br>
 <i>with Corbin Fox</i> 
 
-### The Other Half: Monetary Policy Transmission for Households without Mortgage <br>
+### The Other Half: Monetary Policy Transmission for Households without Mortgages <br>
 <i>with Yucheng Zhou and Divij Kohli</i> 
 
 
