@@ -20,6 +20,6 @@ For more details on about moopmsg and its syntax
 help moopmsg
 ~~~
 
-I have found it quite helpful and hope you will as well! (Please email me if you encounter any issues)
+I have found it quite helpful and hope you will as well! Please email me if you encounter any issues: mohr6@illinois.edu
 
 
