@@ -18,6 +18,21 @@ formation and the market consequences of this importance.
 ## Works in Progress:
 <font size="+1"> House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards </font>
 <i>with Divij Kohli</i>
+### Abstract:
+Credit card frauds are one of the most prevalent forms of identity theft. These frauds pose
+a unique problem to the banks. Under the Fair Credit Billing Act (1974), banks are generally
+liable for fraudulent transactions, not the consumer. Banks want consumers to spend to
+generate transaction fees, but also want to minimize their liability to fraud. Research on these
+frauds has been limited due to data constraints. Exploiting a quirk of credit card reporting,
+we are able to observe these fraudulent cards in credit bureau data. We then document that
+banks did restrict credit to individuals exposed to fraud; stopping the increasing trend in
+their credit. We then examine the impact of a government initiative to widely roll out chip
+cards in the US market. Following increased payment security in the form of the chip-enabled
+cards, banks no longer restrict fraud exposed individuals’ credit. Prior fraud exposed cohorts
+also experience a jump in their credit limits when chip cards are rolled out. These results are
+consistent with payment security lessening fraud risk to banks and document the importance
+of payment security in consumer credit markets. 
+
 ## Useful Projects
 ### moopmsg
 Often times I find myself waiting on large Stata do files to run. In Python, I like to check the status of my code using a Telegram bot. It allows me to know imediately if a long running script has finsihed or hit an unexpected error. Stata does not easily have this fuctionality. 
