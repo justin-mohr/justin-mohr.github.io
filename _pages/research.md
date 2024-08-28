@@ -19,9 +19,10 @@ This paper uses days on which social media platform connectivity is exogenously
 	explanations. The paper’s findings highlight the important role of social media on
 	retail traders’ belief formation and its stock market consequences.
 
-### House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards 
-<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769744">(SSRN)</a> <br>
+### House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards <br>
 <i>with Divij Kohli</i> 
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769744">(SSRN)</a> <br>
+
 #### Abstract:
 Credit card frauds are one of the most prevalent forms of identity theft. These frauds pose
 a unique problem to the banks. Under the Fair Credit Billing Act (1974), banks are generally
@@ -38,7 +39,7 @@ consistent with payment security lessening fraud risk to banks and document the 
 of payment security in consumer credit markets. 
 
 ## Work in Progress:
-### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets </font> 
+### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets <br>
 <i>with Corbin Fox</i> 
 
 
