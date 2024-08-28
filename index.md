@@ -6,15 +6,13 @@ profile:
   image: profile.png
 published: true
 ---
-<p>
+<br>
 #### Hello! I am a Finance PhD Student at the University of Illinois. I am on the job market this year. 
-</p>
-<p>
+<br>
 #### My CV is linked <a href="{{site.baseurl}}/cv.pdf">here</a>
-</p>
-<p>
+<br>
 #### I will be attending the FMA, Oct. 16-19, and look forward to meeting you there! 
-</p>
+<br>
 
 ## Contact Info:
 ### mohr6@illinois.edu
