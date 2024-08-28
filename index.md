@@ -6,7 +6,8 @@ profile:
   image: profile.png
 published: true
 ---
-<br>
+<br> 
+
 #### Hello! I am a Finance PhD Student at the University of Illinois. I am on the job market this year. 
 <br>
 #### My CV is linked <a href="{{site.baseurl}}/cv.pdf">here</a>
