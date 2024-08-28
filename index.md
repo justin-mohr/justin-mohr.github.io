@@ -6,16 +6,16 @@ profile:
   image: profile.png
 published: true
 ---
-<br style="line-height: 2px" />
+<hr style="line-height: 2px; visibility:hidden;" />
 
 #### Hello! I am a Finance PhD Student at the University of Illinois. I am on the job market this year. 
-<br style="line-height: 4px" />
+<hr style="line-height: 4px; visibility:hidden;" />
 
 #### My CV is linked <a href="{{site.baseurl}}/cv.pdf">here</a>
-<br style="line-height: 4px" />
+<hr style="line-height: 4px; visibility:hidden;" />
 
 #### I will be attending the FMA, Oct. 16-19, and look forward to meeting you there! 
-<br style="line-height: 4px" />
+<hr style="line-height: 4px; visibility:hidden;" />
 
 ## Contact Info:
 ### mohr6@illinois.edu
