@@ -168,6 +168,7 @@ blockquote {
 
 .scroll::-webkit-scrollbar {
   height: 8px; /* Customize scrollbar height */
+  background-color: #f1f1f1; /* Background color for the scrollbar track */
 }
 .scroll::-webkit-scrollbar-thumb {
   background: #888; /* Color of the scrollbar thumb */
