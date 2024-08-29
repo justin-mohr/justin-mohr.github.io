@@ -160,15 +160,23 @@ blockquote {
 .divider {
   margin: 1em;
 }
-/* Horizontal scrolling navbar. From: https://iamsteve.me/blog/horizontal-scrolling-responsive-menu */
 .scroll {
   white-space: nowrap;
-  overflow-x: scroll;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  }
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  padding: 0; /* Remove any padding around the scroll container */
+}
 
-/*.scroll::-webkit-scrollbar {
-  display: none; }*/
+
+/* Add styling for the links inside the scroll container */
+.scroll a {
+  display: inline-block; /* Make links behave like inline-blocks */
+  margin: 0 5px; /* Reduce the margin between links to make them closer */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px; /* Optional: Add padding inside the link boxes */
+  border-radius: 4px; /* Optional: Add rounded corners */
+}
 
 /* Button */
 .simplebutton {
