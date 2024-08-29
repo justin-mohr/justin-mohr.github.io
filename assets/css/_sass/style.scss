@@ -161,15 +161,39 @@ blockquote {
   margin: 1em;
 }
 
-/* Horizontal scrolling navbar. From: https://iamsteve.me/blog/horizontal-scrolling-responsive-menu */
 .scroll {
-  white-space: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar; }
+  overflow-x: auto; /* Allows horizontal scrolling */
+  overflow-y: hidden; /* Prevents vertical scroll bar */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for touch devices */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* Auto-hiding scroll bar for IE */
+  display: flex; /* Flexbox layout for wrapping behavior */
+  flex-wrap: wrap; /* Allows wrapping of items */
+  gap: 10px; /* Adds spacing between links */
+}
+
+.scroll b {
+  display: flex; /* Flexbox layout inside <b> */
+  flex-wrap: wrap; /* Allows wrapping within the <b> element */
+  width: 100%; /* Ensures <b> spans the full width */
+}
+
+.scroll a {
+  display: inline-block; /* Makes each link behave like a block element, enabling wrapping */
+  text-decoration: none; /* Removes underline from links */
+  margin: 5px; /* Adds margin around each link */
+  white-space: normal; /* Allows text to wrap within links */
+}
 
 .scroll::-webkit-scrollbar {
-  display: none; }
+  display: none; /* Hides scrollbar for WebKit browsers */
+}
+
+@media screen and (max-width: 600px) {
+  .scroll a {
+    width: 100%; /* Ensures each link takes full width on smaller screens */
+  }
+}
+
 
 
 /* Button */
