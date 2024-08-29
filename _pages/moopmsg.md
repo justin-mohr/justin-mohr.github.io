@@ -3,7 +3,7 @@ layout: about
 title: Useful Software
 permalink: /moopmsg/  
 ---
-##Moopmsg (Stata)
+## Moopmsg (Stata)
 
 <p align="justify">
 Often times I find myself waiting on large Stata do files to run. In Python, I like to check the status of my code using a Telegram bot. It allows me to know imediately if a long running script has finsihed or hit an unexpected error. Stata does not easily have this fuctionality. </p>
