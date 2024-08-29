@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Useful Software
-permalink: /moopmsg/  
+permalink: /software/  
 ---
 ## Moopmsg (Stata)
 
