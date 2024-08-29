@@ -163,25 +163,28 @@ blockquote {
 
 .scroll {
   overflow-x: auto; /* Allows horizontal scrolling */
-  overflow-y: hidden; /* Prevents vertical scroll bar */
+  overflow-y: hidden; /* Prevents vertical scrolling */
   -webkit-overflow-scrolling: touch; /* Smooth scrolling for touch devices */
   -ms-overflow-style: -ms-autohiding-scrollbar; /* Auto-hiding scroll bar for IE */
-  display: flex; /* Flexbox layout for wrapping behavior */
-  flex-wrap: wrap; /* Allows wrapping of items */
+  display: flex; /* Enables flexbox layout */
+  flex-wrap: wrap; /* Allows the content to wrap into rows */
   gap: 10px; /* Adds spacing between links */
 }
 
 .scroll b {
-  display: flex; /* Flexbox layout inside <b> */
-  flex-wrap: wrap; /* Allows wrapping within the <b> element */
+  display: flex; /* Flexbox layout within <b> */
+  flex-wrap: wrap; /* Enables wrapping inside the <b> element */
   width: 100%; /* Ensures <b> spans the full width */
+  justify-content: space-around; /* Distributes space between links evenly */
 }
 
 .scroll a {
-  display: inline-block; /* Makes each link behave like a block element, enabling wrapping */
+  display: inline-block; /* Makes each link a block element for wrapping */
   text-decoration: none; /* Removes underline from links */
   margin: 5px; /* Adds margin around each link */
   white-space: normal; /* Allows text to wrap within links */
+  flex: 1 1 calc(50% - 20px); /* Allows two links per row, considering gap and margin */
+  box-sizing: border-box; /* Includes padding and border in width calculation */
 }
 
 .scroll::-webkit-scrollbar {
@@ -190,11 +193,9 @@ blockquote {
 
 @media screen and (max-width: 600px) {
   .scroll a {
-    width: 100%; /* Ensures each link takes full width on smaller screens */
+    flex: 1 1 50%; /* Ensures two links per row on smaller screens */
   }
 }
-
-
 
 /* Button */
 .simplebutton {
