@@ -14,7 +14,7 @@ published: true
 #### My CV is linked <a href="{{site.baseurl}}/cv.pdf">here</a>
 <hr style="line-height: 4px; visibility:hidden;" />
 
-#### I will be attending the FMA, Oct. 16-19, and look forward to meeting you there! 
+#### I will be attending the FMA, Oct. 16-19, and the AFA. Look forward to meeting you there! 
 <hr style="line-height: 4px; visibility:hidden;" />
 
 ## Contact Info:
