@@ -160,45 +160,15 @@ blockquote {
 .divider {
   margin: 1em;
 }
+/* Horizontal scrolling navbar. From: https://iamsteve.me/blog/horizontal-scrolling-responsive-menu */
 .scroll {
+  white-space: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  display: flex;
-  justify-content: start;
-}
+  -ms-overflow-style: -ms-autohiding-scrollbar; }
 
-.scroll-container {
-  display: flex;
-  flex-wrap: wrap;
-  white-space: nowrap;
-  overflow: hidden; /* Prevents overflowing on the second line */
-}
-
-.scroll a {
-  display: inline-block;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: #333;
-  white-space: nowrap; /* Keeps text from breaking to a new line inside each item */
-}
-
-/* Hide scrollbar */
-.scroll::-webkit-scrollbar {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .scroll-container {
-    flex-wrap: wrap;
-  }
-
-  .scroll a {
-    min-width: 50%; /* Allows each item to take up to 50% of the width in small screens */
-    flex: 1 1 auto; /* Allows flex items to grow and shrink */
-    white-space: normal; /* Allows text to wrap within each item */
-  }
-}
+/*.scroll::-webkit-scrollbar {
+  display: none; }*/
 
 /* Button */
 .simplebutton {
