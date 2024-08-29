@@ -164,7 +164,10 @@ blockquote {
   white-space: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+}
 
+.scroll::-webkit-scrollbar {
+  height: 2px; /* Customize scrollbar height */
 }
 
 /* Button */
