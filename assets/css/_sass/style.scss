@@ -167,7 +167,11 @@ blockquote {
 }
 
 .scroll::-webkit-scrollbar {
-  height: 2px; /* Customize scrollbar height */
+  height: 8px; /* Customize scrollbar height */
+}
+.scroll::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded edges on the scrollbar thumb */
 }
 
 /* Button */
