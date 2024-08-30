@@ -40,7 +40,7 @@ also experience a jump in their credit limits when chip cards are rolled out. Th
 consistent with payment security lessening fraud risk to banks and document the importance
 of payment security in consumer credit markets. </p>
 
-## Work in Progress:
+## Works in Progress:
 ### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets <br>
 <i>with Corbin Fox</i> 
 
