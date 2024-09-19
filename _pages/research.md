@@ -19,8 +19,9 @@ This paper uses days on which social media platform connectivity is exogenously
 	theoretical model of fanatical optimism and are robust to a battery of alternative
 	explanations. The paper’s findings highlight the important role of social media on
 	retail traders’ belief formation and its stock market consequences. </p>
- <p align="justify">
- Presented at Midwestern Finance Association Ph.D. Symposium, Southwestern Finance Association Annual Meeting, Eastern Finance Association Annual Meeting, Financial Management Association Annual Meeting, University of Illinois at Urbana-Champaign, University of South Florida, Economics of Financial Technology Conference, Southern Finance Association Annual Meeting, Latin American and Caribbean Economic Association (LACEA). </p>
+
+ <p align="justify"> <small>
+ Presented at <i>Midwestern Finance Association Ph.D. Symposium, Southwestern Finance Association Annual Meeting, Eastern Finance Association Annual Meeting, Financial Management Association Annual Meeting, University of Illinois at Urbana-Champaign, University of South Florida, Economics of Financial Technology Conference, Southern Finance Association Annual Meeting, Latin American and Caribbean Economic Association (LACEA)</i> </small> </p>
 
  
 
@@ -44,8 +45,8 @@ also experience a jump in their credit limits when chip cards are rolled out. Th
 consistent with payment security lessening fraud risk to banks and document the importance
 of payment security in consumer credit markets. </p>
 
- <p align="justify">
- Presented at Financial Management Association Annual Meeting (scheduled), University of Illinois at Urbana-Champaign (coauthor) </p>
+ <p align="justify"> <small>
+ Presented at <i> Financial Management Association Annual Meeting (scheduled), University of Illinois at Urbana-Champaign (coauthor)</i> </small>small> </p>
 
 ## Works in Progress:
 ### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets <br>
