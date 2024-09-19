@@ -6,7 +6,7 @@ permalink: /research/  # This specifies the URL path for this page. It will be a
 
 ## Working Papers:
 ### Pulling the the Plug: Retail Traders and Social Media <br>
- <a href="https://www.dropbox.com/scl/fi/5wixx5wt5x96w6qztyiid/main.pdf?rlkey=knniqdblei5sq1qqf9msu6tr9&dl=0">(Draft)</a>
+ <a href="https://www.dropbox.com/scl/fi/5wixx5wt5x96w6qztyiid/pulling_the_plug_linked.pdf?rlkey=knniqdblei5sq1qqf9msu6tr9&dl=0">(Draft)</a>
 #### Abstract:
 <p align="justify">
 This paper uses days on which social media platform connectivity is exogenously 
