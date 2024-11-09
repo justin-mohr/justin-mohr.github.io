@@ -46,7 +46,7 @@ consistent with payment security lessening fraud risk to banks and document the 
 of payment security in consumer credit markets. </p>
 
  <p align="justify"> <small>
- Presented at <i> Financial Management Association Annual Meeting (scheduled), University of Illinois at Urbana-Champaign (coauthor)</i> </small> </p>
+ Presented at <i> Financial Management Association Annual Meeting , University of Illinois at Urbana-Champaign (coauthor)</i> </small> </p>
 
 ## Works in Progress:
 ### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets <br>
@@ -54,5 +54,7 @@ of payment security in consumer credit markets. </p>
 
 ### The Other Half: Monetary Policy Transmission for Households without Mortgages <br>
 <i>with Yucheng Zhou and Divij Kohli</i> 
+ <p align="justify"> <small>
+ Presented at <i> Financial Management Association Early Ideas (coauthor)</i> </small> </p>
 
 
