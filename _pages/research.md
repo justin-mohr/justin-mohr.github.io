@@ -13,7 +13,7 @@ This paper uses days on which social media platform connectivity is exogenously
 	interrupted to study social media’s impact on retail trading. It provides evidence
 	consistent with social media platforms spreading fanatical optimism rather than
 	rational beliefs. On “outage” days, social media-discussed stocks experience an
-	increase in retail trading volume concentrated in selling during the first 2 hours of
+	increase in retail trading volume concentrated in selling during the first hour of
 	the outage. Social media-discussed stocks experience a price decline that reverses
 	over the next day following the outage. These results can be explained by a
 	theoretical model of fanatical optimism and are robust to a battery of alternative
