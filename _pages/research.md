@@ -45,7 +45,7 @@ about payment security underscores the need for further policy innovations, such
 one-time passcodes for credit card transactions.</p>
 
  <p align="justify"> <small>
- Presented at <i> Financial Management Association Annual Meeting , University of Illinois at Urbana-Champaign </i> </small> </p>
+ Presented at <i> Financial Management Association Annual Meeting , University of Illinois at Urbana-Champaign (coauthor) </i> </small> </p>
 
 ## Works in Progress:
 ### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets <br>
