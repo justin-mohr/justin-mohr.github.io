@@ -31,22 +31,21 @@ This paper uses days on which social media platform connectivity is exogenously
 
 #### Abstract:
 <p align="justify">
-Credit card frauds are one of the most prevalent forms of identity theft. These frauds pose
-a unique problem to the banks. Under the Fair Credit Billing Act (1974), banks are generally
-liable for fraudulent transactions, not the consumer. Banks want consumers to spend to
-generate transaction fees, but also want to minimize their liability to fraud. Research on these
-frauds has been limited due to data constraints. Exploiting a quirk of credit card reporting,
-we are able to observe these fraudulent cards in credit bureau data. We then document that
-banks did restrict credit to individuals exposed to fraud; stopping the increasing trend in
-their credit. We then examine the impact of a government initiative to widely roll out chip
-cards in the US market. Following increased payment security in the form of the chip-enabled
-cards, banks no longer restrict fraud exposed individuals’ credit. Prior fraud exposed cohorts
-also experience a jump in their credit limits when chip cards are rolled out. These results are
-consistent with payment security lessening fraud risk to banks and document the importance
-of payment security in consumer credit markets. </p>
+Research on payment security and credit card fraud has been constrained by data
+limitations. Exploiting a quirk of credit reporting, we identify credit cards exposed to
+fraud in credit bureau data. Using a matched-sample difference-in-differences approach,
+we find that lenders restricted credit supply to individuals exposed to fraud, while
+consumer demand for credit leveled off post-fraud. We then study the impact of a
+sudden U.S. government initiative promoting the adoption of more secure chip-enabled
+cards. Following this intervention, lenders ceased restricting credit supply to fraud exposed
+consumers. However, despite enhanced payment security, consumers continue
+to reduce their credit demand after fraud exposure. Our findings suggest that improved
+payment security mitigates fraud risks for lenders, but persistent consumer distrust
+about payment security underscores the need for further policy innovations, such as
+one-time passcodes for credit card transactions.</p>
 
  <p align="justify"> <small>
- Presented at <i> Financial Management Association Annual Meeting , University of Illinois at Urbana-Champaign (coauthor)</i> </small> </p>
+ Presented at <i> Financial Management Association Annual Meeting , University of Illinois at Urbana-Champaign </i> </small> </p>
 
 ## Works in Progress:
 ### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets <br>
