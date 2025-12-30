@@ -1,7 +1,7 @@
 ---
 title: 
 layout: clean
-permalink: cheater.html
+permalink: attendnce.html
 ---
 
 <p align="center">
