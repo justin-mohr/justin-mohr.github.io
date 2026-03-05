@@ -20,6 +20,8 @@ website:
       - href: software.qmd
         text: Software
 
+  favicon: favicon.ico
+
   page-footer:
     center: "&copy; Justin Mohr 2026"
 
