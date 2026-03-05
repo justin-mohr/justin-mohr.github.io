@@ -1,0 +1,17 @@
+---
+title: "Justin Mohr"
+about:
+  template: trestles
+  image: assets/images/profile.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mohr6@illinois.edu
+    - icon: file-earmark-pdf
+      text: CV
+      href: cv.pdf
+---
+
+Hello! I am a financial economist with interests in Retail Trading, Household & Consumer Finance, and FinTech. My research, broadly, aims to understand how consumers interact with financial markets and the frictions that they face. I am excited to be joining the University of Mississippi as an Assistant Professor of Finance in Fall 2025.
+
+I am also a proud alumnus of the University of Illinois, *Ph.D. Finance,* and University of South Florida, *B.S. Quantitative Economics and Econometrics.*

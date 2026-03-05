@@ -1,0 +1,11 @@
+---
+title: ""
+page-layout: full
+navbar: false
+---
+
+![](assets/images/cheater.jpg){fig-align="center"}
+
+::: {style="text-align: center;"}
+Oops! You tried to cheat! Don't disappoint Dr. Mohr. Come to class!
+:::
