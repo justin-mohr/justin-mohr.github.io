@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME
+    - robots.txt
+    - fina3000/**
+
+website:
+  title: "Justin Mohr"
+  description: "Assistant Professor of Finance @ Ole Miss"
+  site-url: "https://jmohr.me"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv.pdf
+        text: CV
+      - href: research.qmd
+        text: Research
+      - href: software.qmd
+        text: Software
+
+  favicon: favicon.ico
+
+  page-footer:
+    center: "&copy; Justin Mohr 2026"
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false

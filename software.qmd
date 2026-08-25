@@ -1,0 +1,23 @@
+---
+title: "Useful Software"
+---
+
+## Moopmsg (Stata)
+
+Often times I find myself waiting on large Stata do files to run. In Python, I like to check the status of my code using a Telegram bot. It allows me to know immediately if a long running script has finished or hit an unexpected error. Stata does not easily have this functionality.
+
+I wrote this program, moopmsg, for Stata. It is easily called in your do file. It can send any string message and small files to your Telegram. You will need to make a bot and supply the API token from Telegram. The help file provides details on setting up your bot.
+
+To download:
+
+```stata
+net install moopmsg, from("https://raw.githubusercontent.com/justin-mohr/moopmsg/main")
+```
+
+For more details on moopmsg and its syntax:
+
+```stata
+help moopmsg
+```
+
+I have found it quite helpful and hope you will as well! Please email me if you encounter any issues: [mohr6@illinois.edu](mailto:mohr6@illinois.edu)
