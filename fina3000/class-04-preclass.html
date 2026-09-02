@@ -1211,7 +1211,7 @@ Dr. Justin Mohr
 <li>Time 0 is today; Time 1 is the end of the first period (year, month, etc.) or the beginning of the second period.</li>
 </ul></li>
 </ul>
-<div id="18cb2e58" class="cell" data-execution_count="2">
+<div id="336648b8" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display" data-execution_count="2">
 <div>
 <figure>
@@ -1530,7 +1530,7 @@ FV_{N} = &amp; PV\left(1+I\right)^{N} \\
 <section id="how-to-get-paid" class="slide level2 smaller">
 <h2>How to get paid?</h2>
 <p>You have agreed to work for Justin’s Cupcakes for the summer, 3 months. I offer to pay you 6K at the end of the summer or $1.8K at the end of every month. The rate is 3%. Which do you prefer? (Find the PV of each option.)</p>
-<div id="2b6fa46f" class="cell" data-execution_count="15">
+<div id="dc19aba2" class="cell" data-execution_count="15">
 <div class="cell-output cell-output-display" data-execution_count="15">
 <div>
 <figure>
@@ -1607,7 +1607,18 @@ FV_{N} = &amp; PV\left(1+I\right)^{N} \\
 </section>
 <section id="how-to-get-paid-fv" class="slide level2 smaller">
 <h2>How to get paid? FV</h2>
-<div id="428ba542" class="cell" data-execution_count="20">
+<p>You have agreed to work for Justin’s Cupcakes for the summer, 3 months. I offer to pay you 6K at the end of the summer or $1.8K at the end of every month. The rate is 3%. Which do you prefer? (Find the FV of each option.)</p>
+<!-- THE PROMPT WAS MISSING AND IS RESTORED, 2026-09-02. Dr. Mohr: "Slide 22 lacks the
+     prompt." It is PPT 22's own sentence, verbatim, and it was present in this deck as
+     recently as legacy/superseded/class-07.qmd.pre-2026-08-30; it was lost during the
+     2026-08-30/31 edit round, not by anything done on 2026-09-01.
+
+     WHY NO GATE CAUGHT IT, which is the part worth remembering: forward_fidelity asks whether
+     a source line survives ANYWHERE in the deck, not on the slide it came from. PPT 24 ends
+     with the identical sentence, so the audit found it there and reported 0 gaps while this
+     slide sat with a bare title. Third instance of that blind spot in two days, and the first
+     where it hid a real loss rather than a deliberate deletion. He found it by eye. -->
+<div id="f4a760e0" class="cell" data-execution_count="20">
 <div class="cell-output cell-output-display" data-execution_count="20">
 <div>
 <figure>
@@ -1635,12 +1646,19 @@ FV_{N} = &amp; PV\left(1+I\right)^{N} \\
 </section>
 <section id="how-to-get-paid-fv-1" class="slide level2 smaller">
 <h2>How to get paid? FV</h2>
-<p>You have agreed to work for Justin’s Cupcakes for the summer, 3 months. I offer to pay you 6K at the end of the summer or $1.8K at the end of every month. The rate is 3%. Which do you prefer? Which do you prefer? (Find the PV of each option.)</p>
+<p>You have agreed to work for Justin’s Cupcakes for the summer, 3 months. I offer to pay you 6K at the end of the summer or $1.8K at the end of every month. The rate is 3%. Which do you prefer? Which do you prefer? (Find the FV of each option.)</p>
 <p>Option 1</p>
-<!-- PPT slide 23. FLAG, transcribed exactly as written, TWO defects in one sentence:
-     (a) "Which do you prefer?" is DOUBLED, and (b) it reads "(Find the PV of each
-     option.)" on a slide titled "How to get paid? FV" whose siblings (slides 22 and 24)
-     both read "(Find the FV of each option.)". Copied verbatim; his to fix. -->
+<!-- PPT slide 23. PV CHANGED TO FV, 2026-09-02, on his instruction: "slide 23 says PV not
+     FV." His pptx reads "(Find the PV of each option.)" on a slide titled "How to get paid?
+     FV", between two siblings (PPT 22 and 24) that both read FV, and whose own working is an
+     FV bridge. It was transcribed verbatim and flagged rather than corrected, per the
+     copy-the-words rule; he has now made the call. The original line is recorded in
+     docs/fidelity-exceptions/class-04.txt and the replacement in
+     docs/fidelity-additions/class-04.txt.
+
+     STILL FLAGGED, NOT CHANGED: "Which do you prefer?" is DOUBLED in his source and is left
+     doubled here, because he named the PV/FV error and not this one. One word from him and
+     the repeat comes out. -->
 <!-- The pptx overlays exactly two things on img12.jpg: the 3% rate box and $6,000 sitting
      at t = 3. That is Option 1's FV answer, and it is right BECAUSE an amount already at
      the horizon needs no compounding, which is the teaching point. The bridge is used
