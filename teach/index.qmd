@@ -19,7 +19,7 @@ Instructor decks. Each one asks for the password, then decrypts in the browser.
 <tbody>
 <tr><td>1</td><td>Tue Aug 25</td><td>Course Introduction; Chapter 1</td><td><a href="https://jmohr.me/fina3000/class-01-instructor.html"><strong>class-01</strong></a></td><td><a href="https://jmohr.me/fina3000/class-01-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-01-postclass.html">post</a></td></tr>
 <tr><td>2</td><td>Thu Aug 27</td><td>Chapter 3; Chapter 4</td><td><a href="https://jmohr.me/fina3000/class-02-instructor.html"><strong>class-02</strong></a></td><td><a href="https://jmohr.me/fina3000/class-02-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-02-postclass.html">post</a></td></tr>
-<tr><td>3</td><td>Tue Sep 1</td><td>Chapter 4; Chapter 17</td><td>class-03 <em>(not published)</em></td><td><a href="https://jmohr.me/fina3000/class-03-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-03-postclass.html">post</a></td></tr>
+<tr><td>3</td><td>Tue Sep 1</td><td>Chapter 4; Chapter 17</td><td><a href="https://jmohr.me/fina3000/class-03-instructor.html"><strong>class-03</strong></a></td><td><a href="https://jmohr.me/fina3000/class-03-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-03-postclass.html">post</a></td></tr>
 <tr style="background:#fff8dc"><td>4</td><td>Thu Sep 3</td><td>Chapter 5: Time Value of Money</td><td>class-04 <em>(not published)</em> <strong>&larr; next</strong></td><td><a href="https://jmohr.me/fina3000/class-04-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-04-postclass.html">post</a></td></tr>
 <tr><td>5</td><td>Tue Sep 8</td><td>Chapter 5: Time Value of Money</td><td>class-05 <em>(not published)</em></td><td></td></tr>
 <tr><td>6</td><td>Thu Sep 10</td><td>Chapter 5: Time Value of Money</td><td>class-06 <em>(not published)</em></td><td></td></tr>
@@ -45,4 +45,4 @@ Instructor decks. Each one asks for the password, then decrypts in the browser.
 </tbody></table>
 ```
 
-<p class='text-muted'><small>2 instructor deck(s) published. Generated 2026-09-02 from the course schedule and the live site. Rerun <code>build_teach_page.py</code>, or publish an instructor deck, to refresh.</small></p>
+<p class='text-muted'><small>3 instructor deck(s) published. Generated 2026-09-02 from the course schedule and the live site. Rerun <code>build_teach_page.py</code>, or publish an instructor deck, to refresh.</small></p>
