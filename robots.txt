@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /fina3000/
+Disallow: /teach/
