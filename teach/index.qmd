@@ -20,7 +20,7 @@ format:
 <tr><td>3</td><td>Tue Sep 1</td><td>Chapter 4; Chapter 17</td><td><a href="https://jmohr.me/fina3000/class-03-instructor.html"><strong>class-03</strong></a></td><td><a href="https://jmohr.me/fina3000/class-03-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-03-postclass.html">post</a></td></tr>
 <tr><td>4</td><td>Thu Sep 3</td><td>Chapter 5: Time Value of Money</td><td><a href="https://jmohr.me/fina3000/class-04-instructor.html"><strong>class-04</strong></a></td><td><a href="https://jmohr.me/fina3000/class-04-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-04-postclass.html">post</a></td></tr>
 <tr><td>5</td><td>Tue Sep 8</td><td>Chapter 5: Time Value of Money</td><td><a href="https://jmohr.me/fina3000/class-05-instructor.html"><strong>class-05</strong></a></td><td><a href="https://jmohr.me/fina3000/class-05-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-05-postclass.html">post</a></td></tr>
-<tr><td>6</td><td>Thu Sep 10</td><td>Chapter 5: Time Value of Money</td><td>class-06</td><td></td></tr>
+<tr><td>6</td><td>Thu Sep 10</td><td>Chapter 5: Time Value of Money</td><td><a href="https://jmohr.me/fina3000/class-06-instructor.html"><strong>class-06</strong></a></td><td><a href="https://jmohr.me/fina3000/class-06-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-06-postclass.html">post</a></td></tr>
 <tr><td>7</td><td>Tue Sep 15</td><td>Review for Test 1</td><td>test-1-review</td><td></td></tr>
 <tr><td>9</td><td>Tue Sep 22</td><td>Chapter 7: Bonds</td><td>class-09</td><td><a href="https://jmohr.me/fina3000/class-09-preclass.html">pre</a></td></tr>
 <tr><td>10</td><td>Thu Sep 24</td><td>Chapter 7: Bonds</td><td>class-10</td><td></td></tr>
