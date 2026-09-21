@@ -25,7 +25,7 @@ format:
 <tr><td>8</td><td>Thu Sep 17</td><td>Test 1</td><td>class-08</td><td><a href="https://jmohr.me/fina3000/class-08-postclass.html">post</a></td></tr>
 <tr><td>9</td><td>Tue Sep 22</td><td>Chapter 7: Bonds</td><td>class-09</td><td><a href="https://jmohr.me/fina3000/class-09-preclass.html">pre</a></td></tr>
 <tr><td>10</td><td>Thu Sep 24</td><td>Chapter 7: Bonds</td><td>class-10</td><td></td></tr>
-<tr><td>11</td><td>Tue Sep 29</td><td>Chapter 7: Bonds</td><td></td><td></td></tr>
+<tr><td>11</td><td>Tue Sep 29</td><td>Chapter 7: Bonds</td><td>class-11</td><td></td></tr>
 <tr><td>12</td><td>Thu Oct 1</td><td>Chapter 8: Risk and Return</td><td>class-13</td><td></td></tr>
 <tr><td>13</td><td>Tue Oct 6</td><td>Chapter 8: Risk and Return</td><td>class-14</td><td></td></tr>
 <tr><td>14</td><td>Thu Oct 8</td><td>Chapter 9: Stocks (part 1)</td><td>class-15</td><td></td></tr>
