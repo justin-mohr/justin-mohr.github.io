@@ -24,7 +24,7 @@ format:
 <tr><td>7</td><td>Tue Sep 15</td><td>Review for Test 1</td><td><a href="https://jmohr.me/fina3000/class-07-instructor.html"><strong>class-07</strong></a></td><td><a href="https://jmohr.me/fina3000/class-07-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-07-postclass.html">post</a></td></tr>
 <tr><td>8</td><td>Thu Sep 17</td><td>Test 1</td><td>class-08</td><td><a href="https://jmohr.me/fina3000/class-08-postclass.html">post</a></td></tr>
 <tr><td>9</td><td>Tue Sep 22</td><td>Chapter 7: Bonds</td><td><a href="https://jmohr.me/fina3000/class-09-instructor.html"><strong>class-09</strong></a></td><td><a href="https://jmohr.me/fina3000/class-09-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-09-postclass.html">post</a></td></tr>
-<tr><td>10</td><td>Thu Sep 24</td><td>Chapter 7: Bonds</td><td>class-10</td><td><a href="https://jmohr.me/fina3000/class-10-preclass.html">pre</a></td></tr>
+<tr><td>10</td><td>Thu Sep 24</td><td>Chapter 7: Bonds</td><td><a href="https://jmohr.me/fina3000/class-10-instructor.html"><strong>class-10</strong></a></td><td><a href="https://jmohr.me/fina3000/class-10-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-10-postclass.html">post</a></td></tr>
 <tr><td>11</td><td>Tue Sep 29</td><td>Chapter 7: Bonds</td><td>class-11</td><td></td></tr>
 <tr><td>12</td><td>Thu Oct 1</td><td>Chapter 8: Risk and Return</td><td>class-12</td><td></td></tr>
 <tr><td>13</td><td>Tue Oct 6</td><td>Chapter 8: Risk and Return</td><td>class-13</td><td></td></tr>
