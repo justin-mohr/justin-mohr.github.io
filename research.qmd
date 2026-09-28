@@ -30,6 +30,9 @@ Presented at *Financial Management Association Annual Meeting, University of Ill
 
 *with Viraj R. Chordiya, Divij Kohli, and Yucheng Zhou*
 
+**Abstract:**
+What happens to consumer borrowing when interest rates rise? Standard intuition suggests that higher rates reduce borrowing by raising borrowing costs and tightening cash flow. We show that, over medium horizons, the opposite can occur. Using a representative panel of consumer credit records, we estimate dynamic responses of household debt. A one standard deviation contractionary monetary policy surprise raises total consumer debt by about 4.6% of mean debt over three years (\$3,410). These effects are highly uneven across households. Measured against each group's own balances, the increase is more than twice as large for financially constrained borrowers as for the most creditworthy: 8.5% for borrowers with credit scores below 661, against 3.8% for those above 820. Additional evidence is consistent with an indirect channel: monetary tightening weakens labor-market income, and more exposed households respond by relying more on credit. Our results show that contractionary monetary policy can increase indebtedness among vulnerable households, highlighting an important distributional dimension of monetary transmission.
+
 ::: {.small}
 Presented at *Financial Management Association Early Ideas (coauthor)*
 :::
