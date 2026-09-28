@@ -10,6 +10,7 @@ website:
   title: "Justin Mohr"
   description: "Assistant Professor of Finance @ Ole Miss"
   site-url: "https://jmohr.me"
+  search: false
 
   navbar:
     left:
