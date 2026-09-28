@@ -26,6 +26,10 @@ Research on payment security and credit card fraud has been constrained by data 
 Presented at *Financial Management Association Annual Meeting, University of Illinois at Urbana-Champaign (coauthor)*
 :::
 
+### Incentivizing Retail Traders: Evidence from Daily High Water Marks on a Social Trading Platform
+
+*with Anthony Waikel*
+
 ## Works in Progress
 
 ### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets
