@@ -1,6 +1,6 @@
 ---
 title: "Justin Mohr"
-subtitle: "Assistant Professor, University of Mississippi"
+subtitle: "Assistant Professor<br>University of Mississippi"
 about:
   template: trestles
   image: assets/images/profile.png
