@@ -15,7 +15,7 @@ This paper uses days on which social media platform connectivity is exogenously 
 Presented at *Midwestern Finance Association Ph.D. Symposium, Southwestern Finance Association Annual Meeting, Eastern Finance Association Annual Meeting, Financial Management Association Annual Meeting, University of Illinois at Urbana-Champaign, University of South Florida, Economics of Financial Technology Conference, Southern Finance Association Annual Meeting, Latin American and Caribbean Economic Association (LACEA)*
 :::
 
-### House of Stolen Cards: Credit Outcomes after Lost/Stolen Credit Cards
+### House of Stolen Cards: Does Payment Security Improve Credit Outcomes for Households?
 
 *with Divij Kohli* — [Draft](https://www.dropbox.com/scl/fi/gyuyhpakgubqk1gu5ksdc/house_of_stolen_cards_linked.pdf?rlkey=73z1qm9coo7u4tfa6poawicoy&dl=0)
 
@@ -26,20 +26,27 @@ Research on payment security and credit card fraud has been constrained by data 
 Presented at *Financial Management Association Annual Meeting, University of Illinois at Urbana-Champaign (coauthor)*
 :::
 
-### Incentivizing Retail Traders: Evidence from Daily High Water Marks on a Social Trading Platform
+### Rates Up, Balances Up: Uneven Monetary Transmission in Consumer Credit Markets
 
-*with Anthony Waikel*
-
-## Works in Progress
-
-### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets
-
-*with Corbin Fox*
-
-### The Other Half: Monetary Policy Transmission for Households without Mortgages
-
-*with Yucheng Zhou and Divij Kohli*
+*with Viraj R. Chordiya, Divij Kohli, and Yucheng Zhou*
 
 ::: {.small}
 Presented at *Financial Management Association Early Ideas (coauthor)*
 :::
+
+### Incentivizing Retail Traders: Evidence from Daily High Water Marks on a Social Trading Platform
+
+*with Anthony Waikel*
+
+**Abstract:**
+Fintech platforms have influenced consumer behavior and introduced 'gamified' interfaces that alter retail investor attention. A new innovation in this space is social trading platforms, which allow retail investors to manage investable portfolios and pair that visibility with performance pay that looks like an institutional high water mark contract. We study a social trading platform that pays retail portfolio managers a cash bonus every day their fund closes above its previous high closing point (high water mark). Using 3.6 million trades from 5,000 funds, we employ a differences-in-differences design around each bonus to show that achieving a bonus generates a one day return spike of 1.6 percentage points above the previous day, but these gains immediately disappear. This spike is costly and managers create it by selling recent winners to lock in the bonus, but sacrifice future upside. A counterfactual analysis reveals that 63% of funds would realize higher alpha and 57% would collect additional bonuses by not trading at all. On average, traders destroy 2.5% of fund value around each event. The evidence shows that daily high water mark incentives draw retail traders' attention, amplify short term trading focus, and leave both traders and their investors worse off.
+
+## Works in Progress
+
+### The Value of Protection: Domestic Violence Intervention Courts and Women's Financial Outcomes
+
+*with Filipe Correia and Divij Kohli*
+
+### The Value of Truth in Social Media: Retail Traders and Reddit Ban Bets
+
+*with Corbin Fox*
