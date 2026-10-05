@@ -1,0 +1,10 @@
+---
+title: "Presentation"
+---
+
+## Incentivizing Retail Traders: Evidence from Daily High-Water Marks on a Social Trading Platform
+
+*with Anthony Waikel*
+
+- [Slides](present/hwm_slides.pdf)
+- [Citations in the slides](present/cites_slides.pdf)
