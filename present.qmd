@@ -1,5 +1,7 @@
 ---
 title: "Presentation"
+header-includes: |
+  <meta name="robots" content="noindex, nofollow">
 ---
 
 ## Incentivizing Retail Traders: Evidence from Daily High-Water Marks on a Social Trading Platform
