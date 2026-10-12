@@ -8,5 +8,5 @@ header-includes: |
 
 *with Anthony Waikel*
 
-- [Slides](present/hwm_slides.pdf)
-- [Citations in the slides](present/cites_slides.pdf)
+- [FMA slides](present/hwm_slides_fma.pdf)
+- [Seminar slides](present/hwm_slides.pdf)
