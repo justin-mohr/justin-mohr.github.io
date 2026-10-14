@@ -28,8 +28,13 @@ format:
      this page needs changing between tests.
 
      THE WORDING OF THE RULES IS HIS, from data/course-meta.yml and the test-day decks, plus
-     the two details he added here: bags go on the wall, and the ID bubbles omit the leading
-     zero. Logistics are his; this transcribes rather than rewrites. -->
+     the details he added here: bags go on the wall, and the ID bubbles omit the leading zero.
+     Logistics are his; this transcribes rather than rewrites.
+
+     2026-10-13, second pass: "I would like to remove the not on desk of in pocket part. Then I
+     want another section of handing in your exam. Show student id, place answersheet inside
+     exam booklet". Four cards now, so the rules column is the thing to re-measure whenever one
+     is added: the page must still fit a projector without a scrollbar. -->
 
 ```{=html}
 <div class="proctor">
@@ -67,8 +72,8 @@ format:
 
       <div class="rule">
         <h2>Electronics in your bag</h2>
-        <p>Bags go against the wall. Phones, smart watches and headphones are off and in the bag,
-           not on your desk and not in your pocket.</p>
+        <p>Bags go against the wall. Phones, smart watches and headphones are off and in the
+           bag.</p>
       </div>
 
       <div class="rule">
@@ -82,6 +87,12 @@ format:
         <p><strong>Student ID:</strong> bubble it in, and <em class="hot">omit the leading
            zero</em>.</p>
         <p><strong>Exam form:</strong> bubble the form letter printed on your exam.</p>
+      </div>
+
+      <div class="rule">
+        <h2>Handing in your exam</h2>
+        <p>Show your student ID.</p>
+        <p>Place your answer sheet inside your exam booklet.</p>
       </div>
 
     </section>
