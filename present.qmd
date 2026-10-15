@@ -10,3 +10,9 @@ header-includes: |
 
 - [FMA slides](present/hwm_slides_fma.pdf)
 - [Seminar slides](present/hwm_slides.pdf)
+
+## Discussion: The Rise of Algorithmic Retail Options Traders
+
+*by Diego Amaya, Pedro A. Garcia-Ares, Neil D. Pearson, and Aurelio Vasquez*
+
+- [FMA discussion slides](present/retail_algo_disc_fma.pdf)
