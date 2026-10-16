@@ -22,3 +22,9 @@ header-includes: |
 *by Michael Gelman, David Hirshleifer, Yaron Levi, and Liron Reiter-Gavish*
 
 - [FMA discussion slides](present/social_interaction_disc_fma.pdf)
+
+## Discussion: Round-Lot Size, Liquidity, and Mechanisms: Evidence from Double Machine Learning
+
+*by Pankaj K. Jain, Yihe Yu, and Zhaoque Zhou*
+
+- [FMA discussion slides](present/roundlot_disc_fma.pdf)
