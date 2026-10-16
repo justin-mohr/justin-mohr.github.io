@@ -16,3 +16,9 @@ header-includes: |
 *by Diego Amaya, Pedro A. Garcia-Ares, Neil D. Pearson, and Aurelio Vasquez*
 
 - [FMA discussion slides](present/retail_algo_disc_fma.pdf)
+
+## Discussion: Social Interaction Intensity and Investor Behavior
+
+*by Michael Gelman, David Hirshleifer, Yaron Levi, and Liron Reiter-Gavish*
+
+- [FMA discussion slides](present/social_interaction_disc_fma.pdf)
