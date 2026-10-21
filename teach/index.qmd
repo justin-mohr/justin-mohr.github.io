@@ -33,7 +33,7 @@ format:
 <tr><td>16</td><td>Thu Oct 15</td><td>Test 2</td><td>class-16</td><td></td></tr>
 <tr><td>17</td><td>Tue Oct 20</td><td>Chapter 9: Stocks (part 2)</td><td><a href="https://jmohr.me/fina3000/class-17-instructor.html"><strong>class-17</strong></a></td><td><a href="https://jmohr.me/fina3000/class-17-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-17-postclass.html">post</a></td></tr>
 <tr><td>18</td><td>Thu Oct 22</td><td>Chapter 10: Cost of Capital</td><td><a href="https://jmohr.me/fina3000/class-18-instructor.html"><strong>class-18</strong></a></td><td><a href="https://jmohr.me/fina3000/class-18-preclass.html">pre</a></td></tr>
-<tr><td>19</td><td>Tue Oct 27</td><td>Chapter 10: Cost of Capital</td><td>class-19</td><td><a href="https://jmohr.me/fina3000/class-19-preclass.html">pre</a></td></tr>
+<tr><td>19</td><td>Tue Oct 27</td><td>Chapter 10: Cost of Capital</td><td><a href="https://jmohr.me/fina3000/class-19-instructor.html"><strong>class-19</strong></a></td><td><a href="https://jmohr.me/fina3000/class-19-preclass.html">pre</a></td></tr>
 <tr><td>20</td><td>Thu Oct 29</td><td>Chapter 11: Capital Budgeting</td><td>class-20</td><td></td></tr>
 <tr><td>21</td><td>Tue Nov 3</td><td>Chapter 11: Capital Budgeting</td><td>class-21</td><td></td></tr>
 <tr><td>22</td><td>Thu Nov 5</td><td>Chapter 12: Cash Flow Estimation</td><td>class-22</td><td></td></tr>
