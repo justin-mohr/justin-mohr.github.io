@@ -39,7 +39,7 @@ format:
 <tr><td>22</td><td>Thu Nov 5</td><td>Chapter 12: Cash Flow Estimation</td><td><a href="https://jmohr.me/fina3000/class-22-instructor.html"><strong>class-22</strong></a></td><td><a href="https://jmohr.me/fina3000/class-22-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-22-postclass.html">post</a></td></tr>
 <tr><td>23</td><td>Tue Nov 10</td><td>Chapter 12: Cash Flow Estimation</td><td><a href="https://jmohr.me/fina3000/class-23-instructor.html"><strong>class-23</strong></a></td><td><a href="https://jmohr.me/fina3000/class-23-preclass.html">pre</a> &middot; <a href="https://jmohr.me/fina3000/class-23-postclass.html">post</a></td></tr>
 <tr><td>24</td><td>Thu Nov 12</td><td>Review for Test 3</td><td>class-24</td><td></td></tr>
-<tr><td>26</td><td>Thu Nov 19</td><td>Review for Final</td><td></td><td></td></tr>
+<tr><td>26</td><td>Thu Nov 19</td><td>Review for Final</td><td>class-26</td><td></td></tr>
 <tr><td>27</td><td>Tue Dec 1</td><td>Review for Final</td><td>class-27</td><td></td></tr>
 <tr><td>28</td><td>Thu Dec 3</td><td>Review for Final</td><td>class-28</td><td></td></tr>
 </tbody></table>
