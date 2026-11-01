@@ -6,10 +6,10 @@ title: "Research"
 
 ### Pulling the Plug: Retail Traders and Social Media
 
-[Draft](https://www.dropbox.com/scl/fi/5wixx5wt5x96w6qztyiid/pulling_the_plug_linked.pdf?rlkey=knniqdblei5sq1qqf9msu6tr9&dl=0)
+[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3917950)
 
 **Abstract:**
-This paper uses days on which social media platform connectivity is exogenously interrupted to study social media's impact on retail trading. It provides evidence consistent with social media platforms spreading fanatical optimism rather than rational beliefs. On "outage" days, social media-discussed stocks experience an increase in retail trading volume concentrated in selling during the first 2 hours of the outage. Social media-discussed stocks experience a price decline that reverses over the next day following the outage. These results can be explained by a theoretical model of fanatical optimism and are robust to a battery of alternative explanations. The paper's findings highlight the important role of social media on retail traders' belief formation and its stock market consequences.
+This paper uses days on which social media platform connectivity is exogenously interrupted to study social media's impact on retail trading. It provides evidence consistent with social media platforms spreading fanatical optimism rather than rational beliefs. On "outage" days, social media-discussed stocks experience an increase in retail trading volume concentrated in selling. Social media-discussed stocks experience a price decline that reverses over the subsequent day. These results can be explained by a theoretical model of fanatical optimism and are robust to a battery of alternative explanations. The paper's findings highlight the important role of social media on retail traders' belief formation and its stock market consequences.
 
 ::: {.small}
 Presented at *Midwestern Finance Association Ph.D. Symposium, Southwestern Finance Association Annual Meeting, Eastern Finance Association Annual Meeting, Financial Management Association Annual Meeting, University of Illinois at Urbana-Champaign, University of South Florida, Economics of Financial Technology Conference, Southern Finance Association Annual Meeting, Latin American and Caribbean Economic Association (LACEA)*
@@ -17,7 +17,7 @@ Presented at *Midwestern Finance Association Ph.D. Symposium, Southwestern Finan
 
 ### House of Stolen Cards: Does Payment Security Improve Credit Outcomes for Households?
 
-*with Divij Kohli* — [Draft](https://www.dropbox.com/scl/fi/gyuyhpakgubqk1gu5ksdc/house_of_stolen_cards_linked.pdf?rlkey=73z1qm9coo7u4tfa6poawicoy&dl=0)
+*with Divij Kohli* — [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4769744)
 
 **Abstract:**
 Research on payment security and credit card fraud has been constrained by data limitations. Exploiting a quirk of credit reporting, we identify credit cards exposed to fraud in credit bureau data. Using a matched-sample difference-in-differences approach, we find that lenders restricted credit supply to individuals exposed to fraud, while consumer demand for credit leveled off post-fraud. We then study the impact of a sudden U.S. government initiative promoting the adoption of more secure chip-enabled cards. Following this intervention, lenders ceased restricting credit supply to fraud exposed consumers. However, despite enhanced payment security, consumers continue to reduce their credit demand after fraud exposure. Our findings suggest that improved payment security mitigates fraud risks for lenders, but persistent consumer distrust about payment security underscores the need for further policy innovations, such as one-time passcodes for credit card transactions.
@@ -28,7 +28,7 @@ Presented at *Financial Management Association Annual Meeting, University of Ill
 
 ### Rates Up, Balances Up: Uneven Monetary Transmission in Consumer Credit Markets
 
-*with Viraj R. Chordiya, Divij Kohli, and Yucheng Zhou*
+*with Viraj R. Chordiya, Divij Kohli, and Yucheng Zhou* — [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6503298)
 
 **Abstract:**
 What happens to consumer borrowing when interest rates rise? Standard intuition suggests that higher rates reduce borrowing by raising borrowing costs and tightening cash flow. We show that, over medium horizons, the opposite can occur. Using a representative panel of consumer credit records, we estimate dynamic responses of household debt. A one standard deviation contractionary monetary policy surprise raises total consumer debt by about 4.6% of mean debt over three years (\$3,410). These effects are highly uneven across households. Measured against each group's own balances, the increase is more than twice as large for financially constrained borrowers as for the most creditworthy: 8.5% for borrowers with credit scores below 661, against 3.8% for those above 820. Additional evidence is consistent with an indirect channel: monetary tightening weakens labor-market income, and more exposed households respond by relying more on credit. Our results show that contractionary monetary policy can increase indebtedness among vulnerable households, highlighting an important distributional dimension of monetary transmission.
@@ -40,6 +40,8 @@ Presented at *Financial Management Association Early Ideas (coauthor)*
 ### Incentivizing Retail Traders: Evidence from Daily High Water Marks on a Social Trading Platform
 
 *with Anthony Waikel*
+
+**Semi-Finalist, Best Paper, FMA 2026**
 
 **Abstract:**
 Fintech platforms have influenced consumer behavior and introduced 'gamified' interfaces that alter retail investor attention. A new innovation in this space is social trading platforms, which allow retail investors to manage investable portfolios and pair that visibility with performance pay that looks like an institutional high water mark contract. We study a social trading platform that pays retail portfolio managers a cash bonus every day their fund closes above its previous high closing point (high water mark). Using 3.6 million trades from 5,000 funds, we employ a differences-in-differences design around each bonus to show that achieving a bonus generates a one day return spike of 1.6 percentage points above the previous day, but these gains immediately disappear. This spike is costly and managers create it by selling recent winners to lock in the bonus, but sacrifice future upside. A counterfactual analysis reveals that 63% of funds would realize higher alpha and 57% would collect additional bonuses by not trading at all. On average, traders destroy 2.5% of fund value around each event. The evidence shows that daily high water mark incentives draw retail traders' attention, amplify short term trading focus, and leave both traders and their investors worse off.
