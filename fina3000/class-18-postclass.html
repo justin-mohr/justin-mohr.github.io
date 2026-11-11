@@ -1381,7 +1381,7 @@ Dr. Justin Mohr
 </tr>
 <tr class="even">
 <td class="lbl">Step 2, solve</td>
-<td class="fill fragment" data-fragment-index="2">rs=8.78%+5%=13.78%</td>
+<td class="fill fragment" data-fragment-index="2">rs=8.80%+5%=13.80%</td>
 </tr>
 </tbody>
 </table>
@@ -2692,7 +2692,17 @@ window.JMRAND_POLICY = {
     bold: { mode: "band", lo: 0.5, hi: 2.5, step: 0.05, minChange: 0.3 },
     bnew: { mode: "band", lo: 0.5, hi: 2.5, step: 0.05, minChange: 0.3 },
     rpm:  { mode: "band", lo: 4,   hi: 8,   step: 0.25, minChange: 1 },
-    rf:   { mode: "band", lo: 2,   hi: 4,   step: 0.25, minChange: 0.5 }
+    rf:   { mode: "band", lo: 2,   hi: 4,   step: 0.25, minChange: 0.5 },
+
+    // Class 24, Finding the WACC (debt < preferred < every equity estimate is enforced)
+    rd:    { mode: "band", lo: 6,  hi: 10,   step: 0.1, minChange: 0.5 },
+    rp:    { mode: "band", lo: 7,  hi: 11.5, step: 0.1, minChange: 0.5 },
+    rcapm: { mode: "band", lo: 11, hi: 17,   step: 0.1, minChange: 0.5 },
+    rddm:  { mode: "band", lo: 11, hi: 17,   step: 0.1, minChange: 0.5 },
+    rbyp:  { mode: "band", lo: 11, hi: 17,   step: 0.01, minChange: 0.5 },
+
+    // Class 24, Cupcake Expansion: which of the three authored versions is shown
+    ver:   { mode: "band", lo: 1,  hi: 3,    step: 1,   minChange: 1 }
   }
 };
 
@@ -3041,9 +3051,12 @@ window.JMRAND_POLICY = {
     return true;
   }
 
-  function readSpans(scope, group) {
+  function readSpans(scope, group, only) {
     var out = [];
-    Array.prototype.forEach.call(scope.querySelectorAll(".rv[data-reg]"), function (el) {
+    // `only` reads the spans that name this group with data-group="NAME", wherever they sit:
+    // a slide with no calculator (the after-tax cost of debt) can follow the slide before it.
+    var sel = only ? '.rv[data-reg][data-group="' + only + '"]' : ".rv[data-reg]";
+    Array.prototype.forEach.call(scope.querySelectorAll(sel), function (el) {
       if (el.__rvClaimed) return;
       el.__rvClaimed = true;
       out.push({
@@ -3158,6 +3171,9 @@ window.JMRAND_POLICY = {
     order.forEach(function (key) {
       var g = byKey[key], spans = [];
       g.scopes.forEach(function (sc) { spans = spans.concat(readSpans(sc, key)); });
+      if (key.indexOf("named:") === 0) {
+        spans = spans.concat(readSpans(document, key, key.slice(6)));
+      }
       GROUPS.push(Group(g.boxes, spans));
     });
   }
@@ -3210,6 +3226,61 @@ window.JMRAND_POLICY = {
       sanity: function (v) {
         return v.bnew - v.bold >= 0.4 && v.bold > 0 && v.bp > 0;
       }
+    }
+  };
+
+  /* Class 24, Finding the WACC: weights 30/10/60 and a 25% tax rate are fixed; rd, rp and
+   * the three cost-of-equity estimates are drawn. Debt is always the cheapest source. */
+  KINDS.wacc24 = {
+    draws: ["rd", "rp", "rcapm", "rddm", "rbyp"],
+    derive: function (v) {
+      v.rs = round2((v.rcapm + v.rddm + v.rbyp) / 3);
+      // Unrounded here: the slide prints it to one decimal, and rounding twice can move it.
+      v.wacc = 0.3 * v.rd * 0.75 + 0.1 * v.rp + 0.6 * v.rs;
+      return v;
+    },
+    sanity: function (v) {
+      return v.rd < v.rp && v.rp < Math.min(v.rcapm, v.rddm, v.rbyp);
+    }
+  };
+
+  /* Class 24, Cupcake Expansion: one of three authored cash-flow versions, all costing
+   * $7,000 at 10%. Slide 11 shows the cash flows, slide 12 the CF worksheet keys. */
+  var CUPCAKE = {
+    1: [[3000, 1], [5000, 4], [4000, 1]],
+    2: [[3000, 3], [5000, 3]],
+    3: [[3000, 2], [5000, 2], [2000, 3]]
+  };
+  function flows(groups) {
+    var cf = [-7000];
+    groups.forEach(function (g) { for (var i = 0; i < g[1]; i++) cf.push(g[0]); });
+    return cf;
+  }
+  function npvAt(r, cf) {
+    var s = 0;
+    for (var t = 0; t < cf.length; t++) s += cf[t] / Math.pow(1 + r, t);
+    return s;
+  }
+  KINDS.cupcake24 = {
+    draws: ["ver"],
+    derive: function (v) {
+      var ver = Math.round(v.ver), groups = CUPCAKE[ver] || CUPCAKE[1], cf = flows(groups);
+      for (var y = 1; y <= 7; y++) {
+        v["y" + y] = y < cf.length ? "Year " + y + " - $" + cf[y] : "";
+      }
+      for (var k = 1; k <= 3; k++) {
+        var g = groups[k - 1];
+        v["c0" + k] = g ? String(g[0]) : "";
+        v["f0" + k] = g ? String(g[1]) : "";
+      }
+      v.npv = round2(npvAt(0.10, cf));
+      var lo = 0, hi = 5;
+      for (var i = 0; i < 200; i++) {
+        var m = (lo + hi) / 2;
+        if (npvAt(m, cf) > 0) lo = m; else hi = m;
+      }
+      v.irr = round2(lo * 100);
+      return v;
     }
   };
 
@@ -3308,6 +3379,16 @@ window.JMRAND_POLICY = {
         var v = solved[i];
         p.spans.forEach(function (s) {
           var raw = v[s.name];
+          // A kind may derive TEXT (a table cell such as "Year 7 - $2000"). It is printed as
+          // is; a span marked data-hide-empty hides its table row while the text is empty.
+          if (typeof raw === "string") {
+            s.el.textContent = raw;
+            if (s.el.hasAttribute("data-hide-empty")) {
+              var row = s.el.closest ? s.el.closest("tr") : null;
+              if (row) row.style.display = raw === "" ? "none" : "";
+            }
+            return;
+          }
           if (raw === undefined || !isFinite(raw)) return;
           s.el.textContent = s.shape.ok
             ? s.shape.print(raw * s.mul + s.add, "", "reg")
@@ -3322,7 +3403,9 @@ window.JMRAND_POLICY = {
     }
 
     function roll() {
-      var P = policy(), tries = 0;
+      // The minimum change is measured against the numbers ON SCREEN, so keep the last draw:
+      // resetting `drawn` first measured every draw against the authored value instead.
+      var P = policy(), tries = 0, shown = drawn;
       do {
         drawn = {};
         probs.forEach(function (p) {
@@ -3331,7 +3414,7 @@ window.JMRAND_POLICY = {
             var rule = P[name];
             var base = p.base[name];
             if (!rule || base === undefined) return;
-            var current = drawn[name] !== undefined ? drawn[name] : base;
+            var current = shown[name] !== undefined ? shown[name] : base;
             drawn[name] = T.drawOne(rule, base, current);
           });
         });
